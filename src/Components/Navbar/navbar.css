@@ -1,0 +1,81 @@
+.header{
+   position: fixed; 
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background: transparent;
+   width: 100%;
+   padding: 1rem;
+   z-index: 1000;
+}
+
+.logo{
+    color: var(--PrimaryColor);
+    font-weight: 500;
+    cursor: pointer;
+    justify-content: center;
+
+}
+
+
+.loginBtn{
+  background:var(--greyBg);
+  border: 1px solid var(--PrimaryColor);
+  color:var(--PrimaryColor);
+}
+.loginBtn:hover{
+  background: var(--PrimaryColor);
+  color: var(--greyBg);
+}
+.signupBtn:hover{
+background:var(--greyBg) ;
+color: var(--PrimaryColor);
+border: 1px solid var(--PrimaryColor);
+}
+.closeNavbar, .toggleNavbar{
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+  color:var(--PrimaryColor);
+}
+
+@media screen and (max-width:768px){
+  .navBar{
+    position: absolute;
+    background: var(--greyBg);
+    height: max-content;
+    padding: 1rem;
+    width: 100%;
+    top: 0;
+    left: -500%;
+    z-index:1000;
+    box-shadow:0 2px 4px rgba(209, 209 ,209 , 0.904);
+    transition: .5s ease;
+  }  
+  .navLists{
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: auto; 
+   }
+   .navItem{
+    padding: 1rem 0;
+   }
+   .navLink{
+    color: var(--textColor);
+    font-size:.9rem;
+   }
+   .navLink:hover{
+    color: var(--PrimaryColor);
+   }
+   .headerBtns{
+    flex-direction: column;
+   }
+   .headerBtns .btn{
+    margin-top: 1rem;
+   }
+   .activeNavbar{
+    left: 0;
+   }
+
+}
