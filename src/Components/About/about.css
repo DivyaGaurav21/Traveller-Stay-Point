@@ -1,0 +1,65 @@
+.aboutTitle{
+    color: var(--PrimaryColor);
+    line-height: 1.5rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+/* .mainContent{
+    gap: 1rem;
+} */
+.singleItem{
+    text-align: center;
+}
+.singleItem img{
+    background: rgba(247, 144, 54, 0.265);
+    width: 100px;
+    border-radius: 50%;
+    padding: .5rem;
+}
+.singleItem h3{
+    font-weight: 700;
+    color: var(--blackColor);
+    padding: .5rem;
+}
+.singleItem p{
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--textColor);
+}
+.videoCard{
+    margin-top: 2rem;
+    background: linear-gradient(to top , rgba(0,0,0,0.73), rgba(0,0,0,0.609)) , url('../Assets/img4.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 420px;
+}
+.cardText h2{
+    color: var(--whiteColor);
+    font-weight: 600;
+    padding-bottom: .5rem;
+    margin-top: 20px;
+}
+.cardText p{
+    color: #fff;
+    opacity: .7;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.cardVideo{
+    border: 1px solid #f44336;
+    height: 250px;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    /* overflow: hidden; */
+}
+.cardVideo video{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
