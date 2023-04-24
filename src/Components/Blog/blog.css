@@ -1,0 +1,41 @@
+.maincontainer{
+    gap: 1rem;
+}
+.singlePost{
+    gap: 2rem;
+}
+.imgDivCon{
+    height: 200px;
+    width: 100%;
+    border-radius: 1rem;
+    border: 1px solid var(--greyBg);
+    box-shadow: 0 2px 8px 2px rgba(178,178,178,0.406);
+    overflow: hidden;
+}
+.imgDivCon img:hover{
+    transform: scale(1.1);
+    transition: 1s ease;
+}
+.imgDivCon img{
+    height: 100%;
+    object-fit: cover;
+}
+.postDetails h3{
+    color: var(--blackColor);
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.postDetails p{
+    font-size: 13px;
+    color: var(--textColor);
+    font-weight: 500;
+
+}
+.postanchor{
+    color: var(--PrimaryColor);
+    font-size: 15px;
+    /* gap: .5rem; */
+}
+.postanchor:hover .arricon{
+    transform: translateX(10px);
+}

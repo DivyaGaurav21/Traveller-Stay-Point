@@ -6,8 +6,8 @@ import Home from './Components/Home/Home';
 import Popular from './Components/Popular/Popular';
 import Offer from './Components/Offers/Offer';
 import About from './Components/About/About';
-// import Blog from './Components/Blog/Blog'
-// import Footer from './Components/Footer/Footer';
+import Blog from './Components/Blog/Blog'
+import Footer from './Components/Footer/Footer';
 function App() {
   return (
     <div className="App">
@@ -16,8 +16,8 @@ function App() {
       <Popular/>
       <Offer/>
       <About/>
-      {/* <Blog/> */}
-      {/* <Footer/> */}
+      <Blog/>
+      <Footer/>
     </div>
   );
 }
