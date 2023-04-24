@@ -99,3 +99,13 @@ img , video{
 input{
     font-size: 100%;
 }
+
+.customBtn{
+   margin-top: 1rem;
+   width: 100%;
+   text-align: center;
+   justify-content: center;
+   padding: .6rem;
+   gap: .5rem;
+   color: var(--whiteColor);
+}

@@ -4,7 +4,7 @@ import './App.css';
 import Navbar from './Components/Navbar/Navbar';
 import Home from './Components/Home/Home';
 import Popular from './Components/Popular/Popular';
-// import Offer from './Components/Offers/Offer';
+import Offer from './Components/Offers/Offer';
 // import Blog from './Components/Blog/Blog'
 // import Footer from './Components/Footer/Footer';
 function App() {
@@ -13,7 +13,7 @@ function App() {
       <Navbar/>
       <Home/>
       <Popular/>
-      {/* <Offer/> */}
+      <Offer/>
       {/* <About/> */}
       {/* <Blog/> */}
       {/* <Footer/> */}
