@@ -1,0 +1,57 @@
+.footer{
+    background: var(--greyBg);
+    padding: 2rem 0;
+}
+.secContainer{
+    gap: 1.5rem;
+    text-align: center;
+}
+.footerLogo .logo{
+color: var(--PrimaryColor);
+font-weight: 500;
+cursor: pointer;
+align-items: center;
+padding-bottom: .5rem;
+
+}
+.socials{
+  gap: .5rem;
+  margin: auto;
+  padding: 5px 0;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgb(126, 84, 29); */
+}
+.socials .icon{
+    font-size: 30px;
+    color: var(--blackColor);
+}
+.socials .icon:hover{
+    background: var(--balackColor);
+}
+.developer a{
+ color: #f44336;
+ font-weight: 800;
+}
+.footerLinks{
+    display: grid;
+    row-gap: .2rem;
+    color: var(--PrimaryColor);
+}
+.footerLinks li a{
+    color: var(--PrimaryColor);
+}
+.linkTitle{
+ padding-bottom: .5rem;
+ color: var(--blackColor);
+ font-weight: 700;
+}
+.dg{
+    text-align: center;
+    margin-top: 18px;
+    font-size: 13px;
+}
+.phone , .email{
+    color: var(--textColor);
+    font-size: 12px;
+}
