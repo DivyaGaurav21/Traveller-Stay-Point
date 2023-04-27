@@ -67,3 +67,40 @@
     outline: none;
 }
 
+/* --------Media Query------------ */
+
+@media screen and (min-width:350px){
+    .homeCard{
+       bottom: -100px;
+       width: 80%;
+       grid-template-columns: repeat(1 , 1fr);
+    }
+    .home{
+     margin-bottom: -50px;
+    }
+ }
+ 
+@media screen and (min-width:556px){
+   .homeCard{
+      bottom: -100px;
+      width: 80%;
+      grid-template-columns: repeat(2 , 1fr);
+   }
+   .homeCard button{
+    transform: translate(90px);
+   }
+   .home{
+    margin-bottom: -50px;
+   }
+}
+@media screen and (min-width:720px){
+   .homeCard{
+    bottom: -10%;
+    grid-template-columns: repeat(3,1fr);
+   }
+   .homeCard button{
+    transform: translateY(15px);
+    color: #fff;
+   }
+}
+

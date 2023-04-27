@@ -48,7 +48,7 @@ const Blog = () => {
                 </p>
             </div>
 
-            <div className="maincontainer grid">
+            <div className="mainContent grid">
                {
                 Posts.map(post => (
                     <div className="singlePost grid">

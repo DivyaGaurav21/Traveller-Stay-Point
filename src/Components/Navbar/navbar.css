@@ -84,3 +84,34 @@ border: 1px solid var(--PrimaryColor);
   box-shadow: 0 2px 8px 2px rgba(178,178,178,0.45);
 
 }
+@media screen and (min-width:760px) {
+  .toggleNavbar , .closeNavbar{
+    display: none;
+  }
+  .navLists{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .navLink{
+    padding: 0.45rem;
+    font-size: .9rem;
+  }
+  .navLink:hover{
+    color: var(--PrimaryColor);
+  }
+  .btn{
+    margin-left: 1rem;
+  }
+}
+@media screen and (min-width:960px) {
+    .navItem{
+      padding: 0.7rem;
+    }
+}
+@media screen and (min-width:1024px) {
+  .header{
+    padding: 1rem 8rem !important;
+  }
+}

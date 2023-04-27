@@ -74,7 +74,7 @@ const Offer = () => {
             From historical cities to natural specteculars , come see the best of the world!
           </p>
         </div>
-        <div className="mainContainer grid">
+        <div className="mainContent grid">
           {
             offerData.map(offer => (
               <div className="singleOffer">
